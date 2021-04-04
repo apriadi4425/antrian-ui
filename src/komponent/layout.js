@@ -9,8 +9,8 @@ const Layout = ({children}) => {
                 <h1 style={{fontSize : '200px'}}>Sistem Antrian Pengadilan</h1>
             </div>
             <div className='container-fluid'>
-                <div class="row justify-content-center">
-                    <div class="col-md-12 box_utama">
+                <div className="row justify-content-center">
+                    <div className="col-md-12 box_utama">
                         {
                             children
                         }

@@ -5,7 +5,7 @@ const Tombol = (props) => {
     return(
         <Link to={props.to}>
             <div className='row mt-5'>
-                <div class="col-md-12">
+                <div className="col-md-12">
                     <div style={{width : '100%'}}>
                     <div className="col-md-12 tombol_antrian text-center">
                         <div className="row">

@@ -6,7 +6,8 @@ body{
 }
 
 .banner_atas{
-    height: 50px;
+    height: 100px;
+	margin-bottom: 100px;
     background-color: green;
 }
 
@@ -28,3 +29,18 @@ background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Ch
 background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.bawah_text {
+    position: relative;
+}
+p.bawah_text {
+	position: absolute;
+	margin-right: 10px;
+	bottom: 0;
+	right: 0;
+ }
+
+ input.form_input{
+	 height: 150px;
+	 font-size: 100px;
+ }
