@@ -1,6 +1,8 @@
+
 import {memo} from 'react'
 
 const Tombol = (props) => {
+
     return(
         <div className='row mt-5'>
             <div className="col-md-12">
@@ -8,7 +10,7 @@ const Tombol = (props) => {
                 <div className="col-md-12 tombol_antrian text-center">
                     <div className="row">
                         <div className="col-md-2">
-                            <img src={props.image} className="img img-thumbnail" style={{width : '100%', height : '700px', marginTop : '5px'}}/>
+                            <img src={props.image} alt={props.meja.replace(' ', '-')} className="img img-thumbnail" style={{width : '100%', height : '700px', marginTop : '5px'}}/>
                         </div>
                         <div className="col-md-10">
                             <p style={{fontSize : "180px", fontWeight : "bold", color: "white"}}>{props.meja}</p>
